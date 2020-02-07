@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://tinyops.ru/sitemap.xml
