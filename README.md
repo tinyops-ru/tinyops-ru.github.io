@@ -1,2 +1,1 @@
-# tinyops.github.io
-Сайт tinyops.ru
+Сайт [tinyops.ru](https://tinyops.ru)
