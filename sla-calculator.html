@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор SLA</title>
+    <meta name="keywords" content="SLA, 99.9%, калькулятор, время безотказной работы, аптайм, рассчет, онлайн">
+    <meta name="content-language" content="ru">
+    <meta name="description" content="Калькулятор SLA: максимальное время простоя при 99.9% аптайме">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+          crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+</head>
+<style>
+    body {
+        font-family: 'Inter', sans-serif !important;
+
+        padding: 15px 30px 30px;
+    }
+
+    h1 {
+        font-family: 'Inter', sans-serif !important;
+
+        font-weight: 600;
+
+        font-size: 1.9rem !important;
+
+        margin-bottom: 30px;
+    }
+
+    h2 {
+        font-family: 'Inter', sans-serif !important;
+
+        font-weight: 600;
+
+        font-size: 1.4rem !important;
+
+        margin-bottom: 15px;
+    }
+
+    input {
+        font-size: 1.5rem;
+
+        max-width: 130px;
+
+        border-radius: 4px;
+
+        border: 2px solid lightgray;
+
+        padding: 8px 10px;
+    }
+
+    a {
+        color: #0039d6 !important;
+    }
+
+    input:hover,input:focus {
+        border: 2px solid #0039d6;
+
+        outline: none;
+    }
+
+    table {
+        border-radius: 3px
+    }
+
+    table, td {
+        border: 1px solid lightgray
+    }
+
+    th, td {
+        padding: 7px
+    }
+
+    hr {
+        margin-top: 40px;
+        margin-bottom: 15px;
+
+        height: 1px;
+
+        background-color: lightgray;
+
+        border: 1px;
+    }
+
+    .text-primary {
+        color: #0039d6 !important;
+    }
+
+    .text-left {
+        text-align: left
+    }
+
+    .annotation {
+        color: gray;
+
+        font-size: 1rem;
+    }
+
+    .mb-5 {
+        margin-bottom: 30px
+    }
+
+    .powered-by {
+        color: #a8a8a8
+    }
+
+    #footer {
+        font-size: 0.9rem
+    }
+</style>
+<body class="container p-3 p-lg-5">
+    <h1>
+        Время безотказной работы и простоя при
+        <span class="text-primary">
+            <span id="current-sla">99.9</span> %
+        </span> SLA
+    </h1>
+
+    <div class="mb-5">
+        <h2>
+            <div class="d-block d-lg-inline-block mb-3 mb-lg-0">Уровень SLA:</div>
+            <input type="text" value="99.9" autofocus> %
+        </h2>
+
+        <div class="annotation mb-5">
+            Введите значение и нажмите <span class="text-dark">Enter</span>.
+        </div>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Период</th>
+                <th class="text-left">Возможная недоступность</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>День</td>
+                <td id="down_daily">-</td>
+            </tr>
+            <tr>
+                <td>Неделя</td>
+                <td id="down_weekly">-</td>
+            </tr>
+            <tr>
+                <td>Месяц</td>
+                <td id="down_monthly">-</td>
+            </tr>
+            <tr>
+                <td>Год</td>
+                <td id="down_yearly">-</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+    <div id="footer" class="row mb-5">
+        <div class="col-12 col-lg-6">
+            <a href="https://cronbox.ru" target="_blank" class="ml-2">Мониторинг серверных задач с Cronbox</a>
+        </div>
+        <div class="col-lg-6 d-none d-lg-block powered-by text-right">
+            <a href="https://tinyops.ru" target="_blank" class="mr-2">TinyOps</a>
+        </div>
+    </div>
+
+    <script src="js/kotlin.min.js"></script>
+    <script src="js/calc.js"></script>
+</body>
+</html>
