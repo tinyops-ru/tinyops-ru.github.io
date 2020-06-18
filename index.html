@@ -3,28 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <title>TinyOps.ru</title>
-    <meta name="description" content="Поддержка серверов для малого бизнеса">
+    <meta name="description" content="Автоматизация и поддержка серверов для малого бизнеса">
 
     <meta name="yandex-verification" content="87733a5db9992d4a" />
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+          crossorigin="anonymous">
 
-    <link rel="preload"
-          href="https://fonts.googleapis.com/css?family=Montserrat:200,300,300i,400,500,500i,600,700,800,900"
-          as="style">
-    <link rel="preload" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
-          integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"
-          as="style">
-    <!-- load -->
-    <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Montserrat:200,300,300i,400,500,500i,600,700,800,900">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
-          integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/b82ba96aff.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
 </head>
-<body style="font-family: 'Inter', sans-serif;" class="container mt-4 p-5">
-    <h2 style="font-family: Montserrat, sans-serif;" class="font-weight-bold mb-3">TinyOps.ru</h2>
-    <h5>Сайт находится в разработке, но вы уже можете заценить <a href="https://b.tinyops.ru">наш блог</a></h5>
+<body class="container mt-4 p-5">
+    <h1 class="mb-3">TinyOps</h1>
+
+    <div class="text-dark mb-5">Автоматизация и поддержка серверов для малого бизнеса.</div>
+
+    <h5 class="mb-4">Наши проекты</h5>
+
+    <div class="row justify-content-between">
+        <div class="col-4 rounded bg-light p-3 pb-4 shadow-sm">
+            <a href="https://b.tinyops.ru" target="_blank" title="Перейти на сайт Cronbox">
+                <h4><i class="fas fa-desktop"></i> Cronbox</h4>
+            </a>
+
+            <div class="project-card__description text-secondary">
+                Мониторинг серверных задач, которые выполняются по расписанию.
+            </div>
+        </div>
+
+        <div class="col-4 rounded bg-light p-3 pb-4 shadow-sm">
+            <a href="sla-calculator.html" target="_blank" title="Перейти к калькулятору SLA">
+                <h4>
+                    <i class="fas fa-calculator"></i> Калькулятор SLA
+                </h4>
+
+                <div class="project-card__description text-secondary">
+                    Расчитать допустимое время простоя сервиса за день, неделю, месяц, год.
+                </div>
+            </a>
+        </div>
+
+        <div class="col-4 rounded bg-light p-3 pb-4 shadow-sm">
+            <a href="https://b.tinyops.ru" target="_blank" title="Перейти в блог TinyOps">
+                <h4><i class="fas fa-blog"></i> Блог</h4>
+                <div class="project-card__description text-secondary">
+                    Наш блог о решении технических задач простым языком.
+                </div>
+            </a>
+        </div>
+    </div>
+
 
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >

@@ -1,0 +1,74 @@
+$color-primary: #0039d6;
+$color-secondary: #8b8b8b;
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+h1 {
+  font-size: 2.3rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.75rem;
+
+  margin-bottom: 0 !important;
+}
+
+a {
+  color: $color-primary !important;
+
+  text-decoration: none;
+}
+
+a:hover {
+  color: $color-primary;
+
+  border-bottom: 4px solid $color-primary !important;
+
+  text-decoration: none;
+}
+
+input {
+  font-size: 1.75rem;
+
+  max-width: 130px;
+
+  border-radius: 3px;
+
+  border: 1px solid lightgray;
+
+  padding: 5px 10px;
+}
+
+.col-4 {
+  max-width: 345px
+}
+
+.back-link {
+  font-size: 14px;
+}
+
+.popular-percents {
+  a {
+    color: $color-primary;
+
+    text-decoration: none;
+  }
+
+  a:hover {
+    border-bottom: 3px solid $color-secondary;
+
+    color: $color-primary;
+
+    text-decoration: none;
+  }
+}
+
+.project-card__description {
+  font-size: 0.95rem
+}
