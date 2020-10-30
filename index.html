@@ -3,200 +3,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Калькулятор SLA</title>
-    <meta name="keywords" content="SLA, 99.9%, калькулятор, время безотказной работы, аптайм, рассчет, онлайн">
+
+    <title>TinyOps.ru</title>
+
+    <meta name="description" content="Автоматизация для малого бизнеса">
     <meta name="content-language" content="ru">
-    <meta name="description" content="Калькулятор SLA: максимальное время простоя при 99.9% аптайме">
+    <meta name="keywords" content="автоматизация малого бизнеса, поддержка серверов, автоматизация">
+
+    <meta name="yandex-verification" content="87733a5db9992d4a" />
+
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
           crossorigin="anonymous">
+
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css">
 </head>
-<style>
-    body {
-        font-family: 'Inter', sans-serif !important;
+<body class="container mt-4 pt-2 pl-4 pr-4 p-lg-5">
+<h1 class="mb-3">
+    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-upc" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path d="M3 4.5a.5.5 0 0 1 1 0v7a.5.5 0 0 1-1 0v-7zm2 0a.5.5 0 0 1 1 0v7a.5.5 0 0 1-1 0v-7zm2 0a.5.5 0 0 1 1 0v7a.5.5 0 0 1-1 0v-7zm2 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-7zm3 0a.5.5 0 0 1 1 0v7a.5.5 0 0 1-1 0v-7z"/>
+    </svg>
 
-        padding: 15px 30px 30px;
-    }
+    TinyOps
+</h1>
+<div class="text-dark mb-4 mb-lg-5">Автоматизация для малого бизнеса.</div>
 
-    h1 {
-        font-family: 'Inter', sans-serif !important;
+<h5 class="mb-4">Проекты</h5>
 
-        font-weight: 600;
+<div class="row justify-content-start mb-lg-3">
+    <div class="project-card col-12 col-lg-4 rounded bg-light p-3 mr-lg-3 mb-3 mb-lg-0 pb-4 shadow-sm">
+        <a href="https://dfov.ru" target="_blank" title="Перейти на сайт Dashboard для OpenVPN">
+            <h5>
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-window" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M14 2H2a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1zM2 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2z"/>
+                    <path fill-rule="evenodd" d="M15 6H1V5h14v1z"/>
+                    <path d="M3 3.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm1.5 0a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm1.5 0a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z"/>
+                </svg>
+                <span class="align-middle">Dashboard для OpenVPN</span>
+            </h5>
+        </a>
 
-        font-size: 1.9rem !important;
-
-        margin-bottom: 30px;
-    }
-
-    h2 {
-        font-family: 'Inter', sans-serif !important;
-
-        font-weight: 600;
-
-        font-size: 1.4rem !important;
-
-        margin-bottom: 15px;
-    }
-
-    input {
-        font-size: 1.5rem;
-
-        max-width: 130px;
-
-        border-radius: 4px;
-
-        border: 2px solid lightgray;
-
-        padding: 8px 10px;
-    }
-
-    a {
-        color: #0039d6 !important;
-    }
-
-    input:hover,input:focus {
-        border: 2px solid #0039d6;
-
-        outline: none;
-    }
-
-    table {
-        border-radius: 3px
-    }
-
-    table, td {
-        border: 1px solid lightgray
-    }
-
-    th, td {
-        padding: 7px
-    }
-
-    hr {
-        margin-top: 40px;
-        margin-bottom: 15px;
-
-        height: 1px;
-
-        background-color: lightgray;
-
-        border: 1px;
-    }
-
-    .text-primary {
-        color: #0039d6 !important;
-    }
-
-    .text-left {
-        text-align: left
-    }
-
-    .annotation {
-        color: gray;
-
-        font-size: 1rem;
-    }
-
-    .mb-5 {
-        margin-bottom: 30px
-    }
-
-    .powered-by {
-        color: #a8a8a8
-    }
-
-    #footer {
-        font-size: 0.9rem
-    }
-</style>
-<body class="container p-3 p-lg-5">
-    <h1>
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-calculator" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" d="M12 1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"/>
-            <path d="M4 2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-2zm0 4a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3-6a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3-6a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-4z"/>
-        </svg>
-
-        <span class="align-middle">Время безотказной работы и простоя при</span>
-
-        <span class="text-primary align-middle">
-            <span id="current-sla">99.9</span> %
-        </span> <span class="align-middle">SLA</span>
-    </h1>
-
-    <div class="mb-5">
-        <h2>
-            <div class="d-block d-lg-inline-block mb-3 mb-lg-0">Уровень SLA:</div>
-            <input type="text" value="99.9" autofocus> %
-        </h2>
-
-        <div class="annotation mb-5">
-            Введите значение и нажмите <span class="text-dark">Enter</span>.
+        <div class="project-card__description text-secondary">
+            Web-интерфейс для управления OpenVPN-сервером.
         </div>
     </div>
 
-    <table>
-        <thead>
-            <tr>
-                <th>Период</th>
-                <th class="text-left">Возможная недоступность</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>День</td>
-                <td id="down_daily">-</td>
-            </tr>
-            <tr>
-                <td>Неделя</td>
-                <td id="down_weekly">-</td>
-            </tr>
-            <tr>
-                <td>Месяц</td>
-                <td id="down_monthly">-</td>
-            </tr>
-            <tr>
-                <td>Год</td>
-                <td id="down_yearly">-</td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="project-card col-12 col-lg-4 rounded bg-light p-3 mr-lg-3 mb-3 mb-lg-0 pb-4 shadow-sm">
+        <a href="https://cronbox.ru" target="_blank" title="Перейти на сайт Cronbox.ru">
+            <h5>
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-clock" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm8-7A8 8 0 1 1 0 8a8 8 0 0 1 16 0z"/>
+                    <path fill-rule="evenodd" d="M7.5 3a.5.5 0 0 1 .5.5v5.21l3.248 1.856a.5.5 0 0 1-.496.868l-3.5-2A.5.5 0 0 1 7 9V3.5a.5.5 0 0 1 .5-.5z"/>
+                </svg>
+                <span class="align-middle">Cronbox</span>
+            </h5>
+        </a>
 
-    <hr>
-
-    <div id="footer" class="row justify-content-between mb-5">
-        <div class="col-12 col-lg-4">
-            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-clock ml-2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm8-7A8 8 0 1 1 0 8a8 8 0 0 1 16 0z"/>
-                <path fill-rule="evenodd" d="M7.5 3a.5.5 0 0 1 .5.5v5.21l3.248 1.856a.5.5 0 0 1-.496.868l-3.5-2A.5.5 0 0 1 7 9V3.5a.5.5 0 0 1 .5-.5z"/>
-            </svg>
-
-            <a href="https://cronbox.ru" target="_blank">Мониторинг серверных задач</a>
-        </div>
-
-        <div class="col-12 col-lg-4 text-center">
-            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-window"
-                 fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd"
-                      d="M14 2H2a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1zM2 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2z"/>
-                <path fill-rule="evenodd" d="M15 6H1V5h14v1z"/>
-                <path d="M3 3.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm1.5 0a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm1.5 0a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z"/>
-            </svg>
-
-            <a href="https://dfov.ru" target="_blank" class="align-middle">Панель управления для OpenVPN</a>
-        </div>
-
-        <div class="col-12 col-lg-4 d-none d-lg-block powered-by text-right">
-            <img src="tinyops-logo.png" alt="Логотип Tinyops.ru">
-
-            <a href="https://tinyops.ru" target="_blank" class="mr-2">
-                Другие проекты
-            </a>
+        <div class="project-card__description text-secondary">
+            Мониторинг серверных задач, которые выполняются по расписанию.
         </div>
     </div>
+</div>
 
-    <script src="js/kotlin.min.js"></script>
-    <script src="js/calc.js"></script>
+<div class="row justify-content-start mb-3">
+    <div class="project-card col-12 col-lg-4 rounded bg-light mr-lg-3 p-3 mb-3 mb-lg-0 pb-4 shadow-sm">
+        <a href="sla-calculator.html" target="_blank" title="Перейти к калькулятору SLA">
+            <h5>
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-calculator" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M12 1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"/>
+                    <path d="M4 2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-2zm0 4a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3-6a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3-6a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-4z"/>
+                </svg>
+                <span class="align-middle">Калькулятор SLA</span>
+            </h5>
+
+            <div class="project-card__description text-secondary">
+                Расчитать допустимое время простоя сервиса за день, неделю, месяц, год.
+            </div>
+        </a>
+    </div>
+
+    <div class="project-card col-12 col-lg-4 rounded bg-light p-3 mb-3 mb-lg-0 pb-4 shadow-sm">
+        <a href="https://crontab.cronbox.ru" target="_blank" title="Перейти к генератору расписания для Cron">
+            <h5>
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-calendar3" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z"/>
+                    <path fill-rule="evenodd" d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                </svg>
+                <span class="align-middle">Crontab</span>
+            </h5>
+        </a>
+
+        <div class="project-card__description text-secondary">
+            Генератор расписания для Cron.
+        </div>
+    </div>
+</div>
+
+<div class="row justify-content-start mb-3">
+    <div class="project-card col-12 col-lg-4 rounded bg-light p-3 mb-3 mb-lg-0 pb-4 shadow-sm">
+        <a href="https://b.tinyops.ru" target="_blank" title="Перейти в блог TinyOps">
+            <h5>
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-newspaper" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M0 2.5A1.5 1.5 0 0 1 1.5 1h11A1.5 1.5 0 0 1 14 2.5v10.528c0 .3-.05.654-.238.972h.738a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 1 1 0v9a1.5 1.5 0 0 1-1.5 1.5H1.497A1.497 1.497 0 0 1 0 13.5v-11zM12 14c.37 0 .654-.211.853-.441.092-.106.147-.279.147-.531V2.5a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5v11c0 .278.223.5.497.5H12z"/>
+                    <path d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z"/>
+                </svg>
+                <span class="align-middle">Блог</span>
+            </h5>
+            <div class="project-card__description text-secondary">
+                Решение технических задач простым языком.
+            </div>
+        </a>
+    </div>
+</div>
+
+<div class="d-none d-lg-block text-secondary text-small mt-5 mb-4" style="font-size: 0.8rem">
+    &copy; 2019-2020
+</div>
+
+<div class="d-block d-lg-none text-secondary text-center mt-5 mb-4" style="font-size: 0.8rem">
+    &copy; 2019-2020
+</div>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(57423331, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+    });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/57423331" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
 </body>
 </html>
