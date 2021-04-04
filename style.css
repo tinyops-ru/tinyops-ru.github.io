@@ -51,4 +51,10 @@ input {
 .project-card__description {
   font-size: 0.95rem; }
 
+/*
+ BOOTSTRAP OVERRIDES
+ */
+.border-secondary {
+  border-color: #e2e2e2 !important; }
+
 /*# sourceMappingURL=style.css.map */
