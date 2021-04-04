@@ -1,10 +1,13 @@
 $color-primary: #0039d6;
 $color-secondary: #8b8b8b;
 
+$text: #333;
 $background: #fafafa;
 
 body {
   font-family: 'Inter', sans-serif;
+
+  color: #333;
 
   background-color: $background;
 }
