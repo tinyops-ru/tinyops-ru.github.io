@@ -30,37 +30,78 @@
     <link rel="stylesheet" href="style.css">
 
     <style>
+        h4 {
+            font-family: 'Inter', sans-serif;
+        }
+
         h5 {
             font-family: 'Inter', sans-serif;
         }
     </style>
 </head>
 <body class="container p-5">
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();
+        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-    <h4 class="text-dark mb-4">TINYOPS</h4>
+    ym(57423331, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+    });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/57423331" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
 
-    <h5 class="mb-3">Проекты</h5>
-
-    <div class="bg-light p-3 rounded border border-secondary mb-3">
-        <h6>
-            <a href="https://github.com/lebe-dev/pw" target="_blank">PW</a>
-        </h6>
-        <div class="text-secondary">Безопасный обмен логинами, паролями и прочими секретами</div>
+    <div class="row mb-4">
+        <div class="col-3 bg-primary text-white rounded-left p-3">
+            <h4 style="font-size: 1rem" class="mb-0 pb-0">TINYOPS</h4>
+        </div>
+        <div class="col-9 rounded-right" style="background-color: lightgrey">&nbsp;</div>
     </div>
 
-    <div class="bg-light p-3 rounded border border-secondary mb-3">
-        <h6>
-            <a href="https://crontab.tinyops.ru" target="_blank">Cron Generator</a>
-        </h6>
-        <div class="text-secondary">Генератор расписания cron</div>
+    <div class="mb-4">
+
+        <h5 class="mb-3" style="color: #535353">Проекты</h5>
+
+        <div class="bg-light p-3 rounded border border-secondary mb-3">
+            <h6>
+                <a href="https://pw.tinyops.ru" target="_blank">PW</a>
+            </h6>
+            <div class="text-secondary project-card__description">
+                Безопасный обмен логинами, паролями и прочими секретами. Если тебе надоело, что пользователи шлют по почте и в телегу логины и пароли в открытом виде, то этот сервис спешит помочь.
+            </div>
+        </div>
+
+        <div class="bg-light p-3 rounded border border-secondary mb-3">
+            <h6>
+                <a href="https://crontab.tinyops.ru" target="_blank">Cron Generator</a>
+            </h6>
+            <div class="text-secondary project-card__description"><strike>Генератор</strike> толкователь расписания cron. Для ситуаций когда придумал расписание cron и хочешь знать когда же оно сработает.</div>
+        </div>
+
+        <div class="bg-light p-3 rounded border border-secondary mb-3">
+            <h6>
+                <a href="https://tinyops.ru/sla-calculator.html" target="_blank">Калькулятор SLA</a>
+            </h6>
+            <div class="text-secondary project-card__description">Посчитать аптайм 99.99 и т.д.</div>
+        </div>
+
+        <div class="pl-2 mt-5" style="font-size: 0.8rem; color: lightgrey">
+            TINYOPS (c) 2020-<span id="year">123</span>
+        </div>
+
     </div>
 
-    <div class="bg-light p-3 rounded border border-secondary mb-3">
-        <h6>
-            <a href="https://tinyops.ru/sla-calculator.html" target="_blank">Калькулятор SLA</a>
-        </h6>
-        <div class="text-secondary">Посчитать аптайм 99.99 и т.д.</div>
-    </div>
+<script>
+    const today = new Date().getFullYear();
+    const year = document.getElementById('year');
+    year.textContent = today;
+</script>
 
 </body>
 </html>

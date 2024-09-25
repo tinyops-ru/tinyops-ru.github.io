@@ -1,61 +1,77 @@
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: #333;
-  background-color: #fafafa; }
+  background-color: #fafafa;
+}
 
 h1 {
-  font-size: 2.3rem; }
+  font-size: 2.3rem;
+}
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 700; }
+  font-weight: 700;
+}
 
 h3 {
   font-size: 1.75rem;
-  margin-bottom: 0 !important; }
+  margin-bottom: 0 !important;
+}
 
 a {
   color: #0039d6 !important;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 a:hover {
   color: #0039d6;
-  border-bottom: 4px solid #0039d6 !important;
-  text-decoration: none; }
+  border-bottom: 3px solid #0039d6 !important;
+  text-decoration: none;
+}
 
 input {
   font-size: 1.75rem;
   max-width: 130px;
   border-radius: 3px;
   border: 1px solid lightgray;
-  padding: 5px 10px; }
+  padding: 5px 10px;
+}
 
 .col-4 {
-  max-width: 345px; }
+  max-width: 345px;
+}
 
 .back-link {
-  font-size: 14px; }
+  font-size: 14px;
+}
 
 .popular-percents a {
   color: #0039d6;
-  text-decoration: none; }
+  text-decoration: none;
+}
 .popular-percents a:hover {
   border-bottom: 3px solid #8b8b8b;
   color: #0039d6;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 .project-card {
-  max-width: 340px; }
+  max-width: 340px;
+}
 
 @media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
   .project-card {
-    max-width: 100%; } }
+    max-width: 100%;
+  }
+}
 .project-card__description {
-  font-size: 0.95rem; }
+  font-size: 0.9rem;
+}
 
 /*
  BOOTSTRAP OVERRIDES
  */
 .border-secondary {
-  border-color: #e2e2e2 !important; }
+  border-color: #e2e2e2 !important;
+}
 
 /*# sourceMappingURL=style.css.map */
