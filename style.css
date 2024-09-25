@@ -74,4 +74,18 @@ input {
   border-color: #e2e2e2 !important;
 }
 
+.vertical-align {
+  display: flex;
+  align-items: center;
+}
+
+.cursor-pointer:hover {
+  cursor: pointer;
+}
+
+.crab-link:hover, .crab-link:link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=style.css.map */

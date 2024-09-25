@@ -61,7 +61,11 @@
         <div class="col-5 bg-primary text-white rounded-left p-3">
             <h4 style="font-size: 1rem" class="mb-0 pb-0">TINYOPS</h4>
         </div>
-        <div class="col-7 rounded-right" style="background-color: lightgrey">&nbsp;</div>
+        <div class="col bg-primary"></div>
+        <div class="col-1 rounded-right text-right vertical-align cursor-pointer bg-primary"
+             style="background-color: lightgrey; text-align: right; width: 20px">
+
+        </div>
     </div>
 
     <div class="mb-4">
@@ -86,6 +90,15 @@
 
         <div class="bg-light p-3 rounded border border-secondary mb-3">
             <h6>
+                <a href="https://b64.tinyops.ru" target="_blank">Base64 Encoder / Decoder</a>
+            </h6>
+            <div class="text-secondary project-card__description">
+                WW91J3JlIGF3ZXNvbWUh <-- скопируй эту строчку и воспользуйся <a href="https://b64.tinyops.ru" target="_blank">декодировщиком</a>.
+            </div>
+        </div>
+
+        <div class="bg-light p-3 rounded border border-secondary mb-3">
+            <h6>
                 <a href="https://tinyops.ru/sla-calculator.html" target="_blank">Калькулятор SLA</a>
             </h6>
             <div class="text-secondary project-card__description">Посчитать аптайм 99.99 и т.д.</div>
@@ -101,6 +114,12 @@
     const today = new Date().getFullYear();
     const year = document.getElementById('year');
     year.textContent = today;
+
+    const acidThemeButton = document.getElementById('acid-theme-button');
+
+    acidThemeButton.onclick = function () {
+        alert('GOTCHA!');
+    }
 </script>
 
 </body>
