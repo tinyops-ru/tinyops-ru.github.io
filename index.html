@@ -1,126 +1,83 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>tinyops</title>
+		<meta name="description" content="linux, devops, kubernetes" />
+		<meta name="content-language" content="ru" />
+		<meta name="keywords" content="devops, linux, kubernetes, tinyops" />
 
-    <title>TinyOps</title>
+		<meta property="og:title" content="tinyops" />
+		<meta property="og:description" content="devops, linux, kubernetes, tinyops" />
+		<meta property="og:url" content="/" />
+		<meta property="og:type" content="website" />
+		<meta name="yandex-verification" content="87733a5db9992d4a" />
+		
+		<link rel="modulepreload" href="./_app/immutable/entry/start.D6D6cEXl.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/Bsl3KHrn.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/B4G1pw2-.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/JuHvQJxD.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.Cmv-OjYi.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/DYjHhO0d.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/gF3Q0a2U.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/-Lafjca0.js">
+		<!-- Yandex.Metrika counter -->
+		<script type="text/javascript">
+			(function (m, e, t, r, i, k, a) {
+				m[i] =
+					m[i] ||
+					function () {
+						(m[i].a = m[i].a || []).push(arguments);
+					};
+				m[i].l = 1 * new Date();
+				for (var j = 0; j < document.scripts.length; j++) {
+					if (document.scripts[j].src === r) {
+						return;
+					}
+				}
+				(k = e.createElement(t)),
+					(a = e.getElementsByTagName(t)[0]),
+					(k.async = 1),
+					(k.src = r),
+					a.parentNode.insertBefore(k, a);
+			})(window, document, 'script', 'https://mc.yandex.ru/metrika/tag.js', 'ym');
 
-    <meta name="description" content="linux, devops, kubernetes">
-    <meta name="content-language" content="ru">
-    <meta name="keywords" content="devops, linux, kubernetes, tinyops">
+			ym(57423331, 'init', {
+				clickmap: true,
+				trackLinks: true,
+				accurateTrackBounce: true
+			});
+		</script>
+		<noscript
+			><div>
+				<img
+					src="https://mc.yandex.ru/watch/57423331"
+					style="position: absolute; left: -9999px"
+					alt=""
+				/></div
+		></noscript>
+		<!-- /Yandex.Metrika counter -->
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">
+			<script>
+				{
+					__sveltekit_1vqv9sq = {
+						base: new URL(".", location).pathname.slice(0, -1)
+					};
 
-    <meta property="og:title" content="tinyops">
-    <meta property="og:description" content="devops, linux, kubernetes, tinyops" />
-    <meta property="og:url" content="/" />
-    <meta property="og:type" content="website">
+					const element = document.currentScript.parentElement;
 
-    <meta name="yandex-verification" content="87733a5db9992d4a" />
-
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-          crossorigin="anonymous">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="style.css">
-
-    <style>
-        h4 {
-            font-family: 'Inter', sans-serif;
-        }
-
-        h5 {
-            font-family: 'Inter', sans-serif;
-        }
-    </style>
-</head>
-<body class="container p-5">
-<!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-        m[i].l=1*new Date();
-        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-    ym(57423331, "init", {
-        clickmap:true,
-        trackLinks:true,
-        accurateTrackBounce:true
-    });
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/57423331" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
-
-    <div class="row mb-4">
-        <div class="col-5 bg-primary text-white rounded-left p-3">
-            <h4 style="font-size: 1rem" class="mb-0 pb-0">TINYOPS</h4>
-        </div>
-        <div class="col bg-primary"></div>
-        <div class="col-1 rounded-right text-right vertical-align cursor-pointer bg-primary"
-             style="background-color: lightgrey; text-align: right; width: 20px">
-
-        </div>
-    </div>
-
-    <div class="mb-4">
-
-        <h5 class="mb-3" style="color: #535353">Проекты</h5>
-
-        <div class="bg-light p-3 rounded border border-secondary mb-3">
-            <h6>
-                <a href="https://pw.tinyops.ru" target="_blank">PW</a>
-            </h6>
-            <div class="text-secondary project-card__description">
-                Безопасный обмен логинами, паролями и прочими секретами. Если тебе надоело, что пользователи шлют по почте и в телегу логины и пароли в открытом виде, то этот сервис спешит помочь.
-            </div>
-        </div>
-
-        <div class="bg-light p-3 rounded border border-secondary mb-3">
-            <h6>
-                <a href="https://crontab.tinyops.ru" target="_blank">Cron Generator</a>
-            </h6>
-            <div class="text-secondary project-card__description"><strike>Генератор</strike> толкователь расписания cron. Для ситуаций когда придумал расписание cron и хочешь знать когда же оно сработает.</div>
-        </div>
-
-        <div class="bg-light p-3 rounded border border-secondary mb-3">
-            <h6>
-                <a href="https://b64.tinyops.ru" target="_blank">Base64 Encoder / Decoder</a>
-            </h6>
-            <div class="text-secondary project-card__description">
-                WW91J3JlIGF3ZXNvbWUh <-- скопируй эту строчку и воспользуйся <a href="https://b64.tinyops.ru" target="_blank">декодировщиком</a>.
-            </div>
-        </div>
-
-        <div class="bg-light p-3 rounded border border-secondary mb-3">
-            <h6>
-                <a href="https://tinyops.ru/sla-calculator.html" target="_blank">Калькулятор SLA</a>
-            </h6>
-            <div class="text-secondary project-card__description">Посчитать аптайм 99.99 и т.д.</div>
-        </div>
-
-        <div class="pl-2 mt-5" style="font-size: 0.8rem; color: lightgrey">
-            TINYOPS (c) 2020-<span id="year">123</span>
-        </div>
-
-    </div>
-
-<script>
-    const today = new Date().getFullYear();
-    const year = document.getElementById('year');
-    year.textContent = today;
-
-    const acidThemeButton = document.getElementById('acid-theme-button');
-
-    acidThemeButton.onclick = function () {
-        alert('GOTCHA!');
-    }
-</script>
-
-</body>
+					Promise.all([
+						import("./_app/immutable/entry/start.D6D6cEXl.js"),
+						import("./_app/immutable/entry/app.Cmv-OjYi.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element);
+					});
+				}
+			</script>
+		</div>
+	</body>
 </html>
