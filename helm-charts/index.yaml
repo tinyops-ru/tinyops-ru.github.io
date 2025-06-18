@@ -3,9 +3,9 @@ entries:
   pw:
   - apiVersion: v2
     appVersion: 1.9.1
-    created: "2025-06-18T15:39:54.499955+03:00"
+    created: "2025-06-18T15:51:31.926917+03:00"
     description: A Helm chart for PW - Secure Secret Share Service
-    digest: 34291a2c14d23fc1e63b47eb227d5f53d73248561b218ea7fca864c930f8c3c7
+    digest: bff47b0a9ffaaeb8b9c116976399b9f5e5e1bdf127d983461933aa1185c12c37
     home: https://github.com/lebe-dev/pw
     keywords:
     - secret-sharing
@@ -23,7 +23,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 1.9.0
-    created: "2025-06-18T15:39:54.499388+03:00"
+    created: "2025-06-18T15:51:31.926435+03:00"
     description: A Helm chart for PW - Secure Secret Share Service
     digest: e21f4cc6ae0b452dc36e23fe1f9473105e2e8fee0d5a361550b52e1a903fced6
     home: https://github.com/lebe-dev/pw
@@ -41,4 +41,4 @@ entries:
     urls:
     - pw-0.1.0.tgz
     version: 0.1.0
-generated: "2025-06-18T15:39:54.498562+03:00"
+generated: "2025-06-18T15:51:31.92514+03:00"
