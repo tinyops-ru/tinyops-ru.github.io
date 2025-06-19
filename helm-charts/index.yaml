@@ -2,8 +2,28 @@ apiVersion: v1
 entries:
   pw:
   - apiVersion: v2
+    appVersion: 1.9.2
+    created: "2025-06-19T08:49:26.532843+03:00"
+    description: A Helm chart for PW - Secure Secret Share Service
+    digest: ed86f7ac59e4bfb6d0cb93194f690c33b585967dbb55451b0e7fe2ef607ad30c
+    home: https://github.com/lebe-dev/pw
+    keywords:
+    - secret-sharing
+    - security
+    - encrypted
+    maintainers:
+    - email: duke.tougu@gmail.com
+      name: Eugene Lebedev
+    name: pw
+    sources:
+    - https://github.com/lebe-dev/pw
+    type: application
+    urls:
+    - pw-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
     appVersion: 1.9.1
-    created: "2025-06-18T15:51:31.926917+03:00"
+    created: "2025-06-19T08:49:26.532303+03:00"
     description: A Helm chart for PW - Secure Secret Share Service
     digest: bff47b0a9ffaaeb8b9c116976399b9f5e5e1bdf127d983461933aa1185c12c37
     home: https://github.com/lebe-dev/pw
@@ -23,7 +43,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 1.9.0
-    created: "2025-06-18T15:51:31.926435+03:00"
+    created: "2025-06-19T08:49:26.531811+03:00"
     description: A Helm chart for PW - Secure Secret Share Service
     digest: e21f4cc6ae0b452dc36e23fe1f9473105e2e8fee0d5a361550b52e1a903fced6
     home: https://github.com/lebe-dev/pw
@@ -41,4 +61,4 @@ entries:
     urls:
     - pw-0.1.0.tgz
     version: 0.1.0
-generated: "2025-06-18T15:51:31.92514+03:00"
+generated: "2025-06-19T08:49:26.530671+03:00"
