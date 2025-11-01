@@ -1,8 +1,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://tinyops.ru/</loc>
-        <lastmod>2025-07-03</lastmod>
+        <lastmod>2025-11-01</lastmod>
     </url>
+    <url>
+        <loc>https://tinyops.ru/libru.html</loc>
+        <lastmod>2025-11-01</lastmod>
+    </url>
+
     <url>
         <loc>https://tinyops.ru/sla-calculator.html</loc>
         <lastmod>2024-09-25</lastmod>
