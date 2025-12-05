@@ -2,8 +2,28 @@ apiVersion: v1
 entries:
   pw:
   - apiVersion: v2
+    appVersion: 1.11.0
+    created: "2025-12-05T15:56:38.632952+03:00"
+    description: A Helm chart for PW - Secure Secret Share Service
+    digest: fb94c12f3deacde876f048d89e2a0f333fdee822b359a210e34807cd020c9834
+    home: https://github.com/lebe-dev/pw
+    keywords:
+    - secret-sharing
+    - security
+    - encrypted
+    maintainers:
+    - email: duke.tougu@gmail.com
+      name: Eugene Lebedev
+    name: pw
+    sources:
+    - https://github.com/lebe-dev/pw
+    type: application
+    urls:
+    - pw-1.0.9.tgz
+    version: 1.0.9
+  - apiVersion: v2
     appVersion: 1.10.3
-    created: "2025-11-21T17:08:04.141691+03:00"
+    created: "2025-12-05T15:56:38.632627+03:00"
     description: A Helm chart for PW - Secure Secret Share Service
     digest: 570286e1fc5f27a7f32cca25f54312fefa3cf940efd2e42f388186da5a69bee5
     home: https://github.com/lebe-dev/pw
@@ -23,7 +43,7 @@ entries:
     version: 1.0.8
   - apiVersion: v2
     appVersion: 1.10.2
-    created: "2025-11-21T17:08:04.141364+03:00"
+    created: "2025-12-05T15:56:38.632101+03:00"
     description: A Helm chart for PW - Secure Secret Share Service
     digest: 118c8c32e63c58321da32dd4d50122c13c5156573342c8ab0eaf6c9e3540a0c5
     home: https://github.com/lebe-dev/pw
@@ -43,7 +63,7 @@ entries:
     version: 1.0.7
   - apiVersion: v2
     appVersion: 1.10.2
-    created: "2025-11-21T17:08:04.141025+03:00"
+    created: "2025-12-05T15:56:38.630556+03:00"
     description: A Helm chart for PW - Secure Secret Share Service
     digest: 1a28417c916c4e1a200f90c9fe7f4579eedb0a9ac65939c2541dd5112db7f2c6
     home: https://github.com/lebe-dev/pw
@@ -63,7 +83,7 @@ entries:
     version: 1.0.6
   - apiVersion: v2
     appVersion: 1.10.1
-    created: "2025-11-21T17:08:04.140678+03:00"
+    created: "2025-12-05T15:56:38.629923+03:00"
     description: A Helm chart for PW - Secure Secret Share Service
     digest: 51ca39a9816f52ce856290d8532e67c60e7822255dc860c361f9e3809623f5dc
     home: https://github.com/lebe-dev/pw
@@ -83,7 +103,7 @@ entries:
     version: 1.0.5
   - apiVersion: v2
     appVersion: 1.10.0
-    created: "2025-11-21T17:08:04.139568+03:00"
+    created: "2025-12-05T15:56:38.628225+03:00"
     description: A Helm chart for PW - Secure Secret Share Service
     digest: 4b0d5e2e6f809dd45b14b0627c1862110c8c1f3b54d8b2abde31efd268b12bef
     home: https://github.com/lebe-dev/pw
@@ -103,7 +123,7 @@ entries:
     version: 1.0.4
   - apiVersion: v2
     appVersion: 1.10.0
-    created: "2025-11-21T17:08:04.138396+03:00"
+    created: "2025-12-05T15:56:38.627241+03:00"
     description: A Helm chart for PW - Secure Secret Share Service
     digest: 80efcbe53ab77e7d13994bc62d8a264451b96bedbdd1b706333af9f4dc9cf720
     home: https://github.com/lebe-dev/pw
@@ -123,7 +143,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: 1.9.2
-    created: "2025-11-21T17:08:04.137749+03:00"
+    created: "2025-12-05T15:56:38.625841+03:00"
     description: A Helm chart for PW - Secure Secret Share Service
     digest: 3501df6031d9322e9c49c6d4e73da927b3c45a1ca1af58a7a939a7331f3ca12f
     home: https://github.com/lebe-dev/pw
@@ -143,7 +163,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.9.2
-    created: "2025-11-21T17:08:04.137253+03:00"
+    created: "2025-12-05T15:56:38.625068+03:00"
     description: A Helm chart for PW - Secure Secret Share Service
     digest: ed86f7ac59e4bfb6d0cb93194f690c33b585967dbb55451b0e7fe2ef607ad30c
     home: https://github.com/lebe-dev/pw
@@ -163,7 +183,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.9.1
-    created: "2025-11-21T17:08:04.136842+03:00"
+    created: "2025-12-05T15:56:38.624468+03:00"
     description: A Helm chart for PW - Secure Secret Share Service
     digest: bff47b0a9ffaaeb8b9c116976399b9f5e5e1bdf127d983461933aa1185c12c37
     home: https://github.com/lebe-dev/pw
@@ -183,7 +203,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 1.9.0
-    created: "2025-11-21T17:08:04.136481+03:00"
+    created: "2025-12-05T15:56:38.623851+03:00"
     description: A Helm chart for PW - Secure Secret Share Service
     digest: e21f4cc6ae0b452dc36e23fe1f9473105e2e8fee0d5a361550b52e1a903fced6
     home: https://github.com/lebe-dev/pw
@@ -201,4 +221,4 @@ entries:
     urls:
     - pw-0.1.0.tgz
     version: 0.1.0
-generated: "2025-11-21T17:08:04.136012+03:00"
+generated: "2025-12-05T15:56:38.62281+03:00"
