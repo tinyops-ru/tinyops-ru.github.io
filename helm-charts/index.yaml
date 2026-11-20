@@ -3,7 +3,7 @@ entries:
   cronbird:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-20T11:09:52.188418+03:00"
+    created: "2026-11-20T11:16:08.312199+03:00"
     description: A Helm chart for cronbird - HTTP cron job monitoring service with
       Prometheus metrics
     digest: 549fa6beeaf5706f8a3a2de8c63cb3a8ea1324ceb67ec352b83eac05082488fb
@@ -19,7 +19,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 0.1.2
-    created: "2026-11-20T11:09:52.188083+03:00"
+    created: "2026-11-20T11:16:08.310829+03:00"
     description: A Helm chart for cronbird - HTTP cron job monitoring service with
       Prometheus metrics
     digest: 6d2399c1c20f4e73b5f37e8d688f0610798ce892970a848ab4652eaa8c40a557
@@ -35,7 +35,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2026-11-20T11:09:52.187552+03:00"
+    created: "2026-11-20T11:16:08.310412+03:00"
     description: A Helm chart for cronbird - HTTP cron job monitoring service with
       Prometheus metrics
     digest: 2fad67f5f214a5150fb6ad348eb4d7483d5438f967f9e6d1810702e61f7e928e
@@ -51,7 +51,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2026-11-20T11:09:52.186933+03:00"
+    created: "2026-11-20T11:16:08.30929+03:00"
     description: A Helm chart for cronbird - HTTP cron job monitoring service with
       Prometheus metrics
     digest: bd6327fb778211ad91e1f6967d15e2b7a5b9152a0aa516a6a888cc74b63a3e10
@@ -76,9 +76,9 @@ entries:
           description: Document OAuth sign-in and expose the authentication mode in chart values
     apiVersion: v2
     appVersion: 1.3.0
-    created: "2026-11-20T11:09:52.195466+03:00"
+    created: "2026-11-20T11:16:08.336171+03:00"
     description: A Helm chart for Kaiman Webhooks Proxy
-    digest: a30bbec6b262992955e6033b3786cfefd47a7cf7b4f2310cc4f897a9de3eaeae
+    digest: 659679e639cdd3660022493e8ac9fab9a400828f5a7bfe775b559b572296012a
     name: kaiman-webhooks-proxy
     type: application
     urls:
@@ -92,7 +92,7 @@ entries:
           description: Prometheus alerts for channels without webhook secret or IP allowlist
     apiVersion: v2
     appVersion: 1.2.0
-    created: "2026-11-20T11:09:52.194891+03:00"
+    created: "2026-11-20T11:16:08.332278+03:00"
     description: A Helm chart for Kaiman Webhooks Proxy
     digest: f5595a1e513bd8ce56a2f6d98c9433eeffb6ca8913f2db70f069034ce7fafd08
     name: kaiman-webhooks-proxy
@@ -108,7 +108,7 @@ entries:
           description: Prometheus alerts for channels without webhook secret or IP allowlist
     apiVersion: v2
     appVersion: 1.1.0
-    created: "2026-11-20T11:09:52.193966+03:00"
+    created: "2026-11-20T11:16:08.331302+03:00"
     description: A Helm chart for Kaiman Webhooks Proxy
     digest: 6b254174414ed7865f8ffa893d459017589de7e0ac12149fe5c1ccee71db1f62
     name: kaiman-webhooks-proxy
@@ -124,7 +124,7 @@ entries:
           description: Prometheus alerts for channels without webhook secret or IP allowlist
     apiVersion: v2
     appVersion: 1.1.0
-    created: "2026-11-20T11:09:52.193523+03:00"
+    created: "2026-11-20T11:16:08.328006+03:00"
     description: A Helm chart for Kaiman Webhooks Proxy
     digest: b5e05c3be91b6e5e8b86bfc0c423715b13f66f243200509896d6c61aebb49a3d
     name: kaiman-webhooks-proxy
@@ -140,7 +140,7 @@ entries:
           description: Prometheus alerts for channels without webhook secret or IP allowlist
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-20T11:09:52.193236+03:00"
+    created: "2026-11-20T11:16:08.324572+03:00"
     description: A Helm chart for Kaiman Webhooks Proxy
     digest: 48128d88591a561996bc6eca31171387f6b2ffa80bd9a52aab5e22f7d38856ba
     name: kaiman-webhooks-proxy
@@ -156,7 +156,7 @@ entries:
           description: Prometheus alerts for channels without webhook secret or IP allowlist
     apiVersion: v2
     appVersion: 0.7.1
-    created: "2026-11-20T11:09:52.192949+03:00"
+    created: "2026-11-20T11:16:08.323991+03:00"
     description: A Helm chart for Kaiman Webhooks Proxy
     digest: c6c8a03a1da90197866c7018e9437549bcdbcc3760a12337226948443a26bd57
     name: kaiman-webhooks-proxy
@@ -166,7 +166,7 @@ entries:
     version: 0.3.4
   - apiVersion: v2
     appVersion: 0.7.0
-    created: "2026-11-20T11:09:52.192652+03:00"
+    created: "2026-11-20T11:16:08.322289+03:00"
     description: A Helm chart for Kaiman Webhooks Proxy
     digest: b00d00446efe649bc043f9228883cdb1676ef83e3b5535af3cfa5ba9ad0358cb
     name: kaiman-webhooks-proxy
@@ -176,7 +176,7 @@ entries:
     version: 0.3.3
   - apiVersion: v2
     appVersion: 0.6.0
-    created: "2026-11-20T11:09:52.1923+03:00"
+    created: "2026-11-20T11:16:08.320878+03:00"
     description: A Helm chart for Kaiman Webhooks Proxy
     digest: 9e587b0e733b08213921cc9c9182655a04323734069c770f7337247a13893fa3
     name: kaiman-webhooks-proxy
@@ -186,7 +186,7 @@ entries:
     version: 0.3.2
   - apiVersion: v2
     appVersion: 0.5.0
-    created: "2026-11-20T11:09:52.192006+03:00"
+    created: "2026-11-20T11:16:08.318985+03:00"
     description: A Helm chart for Kaiman Webhooks Proxy
     digest: 3324360333d1cffeb6e5e629611553f4bb468b77e8082630ec637b371e4c5989
     name: kaiman-webhooks-proxy
@@ -196,7 +196,7 @@ entries:
     version: 0.3.1
   - apiVersion: v2
     appVersion: 0.5.0
-    created: "2026-11-20T11:09:52.191711+03:00"
+    created: "2026-11-20T11:16:08.318344+03:00"
     description: A Helm chart for Kaiman Webhooks Proxy
     digest: 476169f7e03120dee10c8b4daf50e5e22d0603f461830bdf709e109d27346474
     name: kaiman-webhooks-proxy
@@ -206,7 +206,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 0.5.0
-    created: "2026-11-20T11:09:52.191395+03:00"
+    created: "2026-11-20T11:16:08.317601+03:00"
     description: A Helm chart for Kaiman Webhooks Proxy
     digest: 4efce98a3abc983d76bdb2cb116b7a4e547e836d55a9783864451c30cb320aa8
     name: kaiman-webhooks-proxy
@@ -216,7 +216,7 @@ entries:
     version: 0.2.6
   - apiVersion: v2
     appVersion: 0.4.0
-    created: "2026-11-20T11:09:52.191088+03:00"
+    created: "2026-11-20T11:16:08.315441+03:00"
     description: A Helm chart for Kaiman Webhooks Proxy
     digest: a8a24b696c6d27995f7c63a98457e869816484c2de1de3595813c74735125ad9
     name: kaiman-webhooks-proxy
@@ -226,7 +226,7 @@ entries:
     version: 0.2.5
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2026-11-20T11:09:52.190756+03:00"
+    created: "2026-11-20T11:16:08.31513+03:00"
     description: A Helm chart for Kaiman Webhooks Proxy
     digest: fb1dfbe4a2220d0f8b668ee56e971edc92c594b85b6c6e3fb2874eb7bc917f54
     name: kaiman-webhooks-proxy
@@ -236,7 +236,7 @@ entries:
     version: 0.2.4
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2026-11-20T11:09:52.189634+03:00"
+    created: "2026-11-20T11:16:08.314729+03:00"
     description: A Helm chart for Kaiman Webhooks Proxy
     digest: 9db9b5165c3614b655e3fc37af4789427bab5de5f6d910b44661eea28c6bd63b
     name: kaiman-webhooks-proxy
@@ -246,7 +246,7 @@ entries:
     version: 0.2.3
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2026-11-20T11:09:52.189295+03:00"
+    created: "2026-11-20T11:16:08.314415+03:00"
     description: A Helm chart for Kaiman Webhooks Proxy
     digest: 9c7ab459cb96800b15b0818b23f89e46d24ac0e220b22d0c62a0c4da3cdd35db
     name: kaiman-webhooks-proxy
@@ -256,7 +256,7 @@ entries:
     version: 0.2.2
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2026-11-20T11:09:52.18899+03:00"
+    created: "2026-11-20T11:16:08.314092+03:00"
     description: A Helm chart for Kaiman Webhooks Proxy
     digest: 25d1fa04032b1ba2a3de124e05275a9ffab7229a2689d0bb0418bf41df44ebfd
     name: kaiman-webhooks-proxy
@@ -266,7 +266,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2026-11-20T11:09:52.188705+03:00"
+    created: "2026-11-20T11:16:08.313722+03:00"
     description: A Helm chart for Kaiman Webhooks Proxy
     digest: 85d0750f4b44733066839bf56f30a0d763d2c5d317ef3a4a70d7b5000df316f6
     name: kaiman-webhooks-proxy
@@ -313,7 +313,7 @@ entries:
           description: add readiness and liveness probes
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-11-20T11:09:52.211735+03:00"
+    created: "2026-11-20T11:16:08.389457+03:00"
     description: A Helm chart for PW - A secure secret-sharing service with end-to-end
       encryption. All data is encrypted directly in the browser.
     digest: f2dcfb900bc6140a8e3da96c29b499b78a0ee7972ec782e273e1d4d48592d3f0
@@ -366,7 +366,7 @@ entries:
           description: add readiness and liveness probes
     apiVersion: v2
     appVersion: 1.15.5
-    created: "2026-11-20T11:09:52.211233+03:00"
+    created: "2026-11-20T11:16:08.383816+03:00"
     description: A Helm chart for PW - A secure secret-sharing service with end-to-end
       encryption. All data is encrypted directly in the browser.
     digest: b5aa34734e80e2bac5faa1c23f227e7f5f4b6424ab9f04dcf3936922281f34c2
@@ -417,7 +417,7 @@ entries:
           description: add readiness and liveness probes
     apiVersion: v2
     appVersion: 1.15.5
-    created: "2026-11-20T11:09:52.210774+03:00"
+    created: "2026-11-20T11:16:08.37738+03:00"
     description: A Helm chart for PW - A secure secret-sharing service with end-to-end
       encryption. All data is encrypted directly in the browser.
     digest: 6003c0fb5816b02adcc31cd35122e3b88cf9603b69eac6e3ddef7e1839c9c075
@@ -468,7 +468,7 @@ entries:
           description: add readiness and liveness probes
     apiVersion: v2
     appVersion: 1.15.4
-    created: "2026-11-20T11:09:52.210291+03:00"
+    created: "2026-11-20T11:16:08.376428+03:00"
     description: A Helm chart for PW - A secure secret-sharing service with end-to-end
       encryption. All data is encrypted directly in the browser.
     digest: d4a04d36ac7a789d22946f6263ab1cad9babaa1b504136967e3a687c95e1bb6e
@@ -519,7 +519,7 @@ entries:
           description: add readiness and liveness probes
     apiVersion: v2
     appVersion: 1.15.3
-    created: "2026-11-20T11:09:52.209812+03:00"
+    created: "2026-11-20T11:16:08.37592+03:00"
     description: A Helm chart for PW - A secure secret-sharing service with end-to-end
       encryption. All data is encrypted directly in the browser.
     digest: d2344d5b8cb114dbcafbae600fb6923d981196404c85feb5d078a4af794af1b2
@@ -570,7 +570,7 @@ entries:
           description: add readiness and liveness probes
     apiVersion: v2
     appVersion: 1.15.2
-    created: "2026-11-20T11:09:52.209221+03:00"
+    created: "2026-11-20T11:16:08.37542+03:00"
     description: A Helm chart for PW - A secure secret-sharing service with end-to-end
       encryption. All data is encrypted directly in the browser.
     digest: 095b5824744195ece678bb5ab1c11759347841aa196a901c0f678e01a9f1a603
@@ -619,7 +619,7 @@ entries:
           description: add readiness and liveness probes
     apiVersion: v2
     appVersion: 1.15.1
-    created: "2026-11-20T11:09:52.208338+03:00"
+    created: "2026-11-20T11:16:08.374931+03:00"
     description: A Helm chart for PW - A secure secret-sharing service with end-to-end
       encryption. All data is encrypted directly in the browser.
     digest: 6d4e73cf91c62cf13be106ec8792784e56052946ba1ce99a2a6f808a2a43237c
@@ -668,7 +668,7 @@ entries:
           description: add readiness and liveness probes
     apiVersion: v2
     appVersion: 1.15.0
-    created: "2026-11-20T11:09:52.207898+03:00"
+    created: "2026-11-20T11:16:08.374441+03:00"
     description: A Helm chart for PW - A secure secret-sharing service with end-to-end
       encryption. All data is encrypted directly in the browser.
     digest: 8ccc60948fcc5ab262265e71eb5c652adf1f998a6044b6ce36e8b8d5fe5d64ef
@@ -715,7 +715,7 @@ entries:
           description: Bump deps
     apiVersion: v2
     appVersion: 1.14.2
-    created: "2026-11-20T11:09:52.207461+03:00"
+    created: "2026-11-20T11:16:08.373944+03:00"
     description: A Helm chart for PW - A secure secret-sharing service with end-to-end
       encryption. All data is encrypted directly in the browser.
     digest: 4233d554e0e494056002282da4180d1d74fb5a6e36936871fda60c30a3367d8d
@@ -760,7 +760,7 @@ entries:
           description: Updated nginx sidecar image to nginx:1.29.5-alpine3.23-slim
     apiVersion: v2
     appVersion: 1.14.1
-    created: "2026-11-20T11:09:52.207029+03:00"
+    created: "2026-11-20T11:16:08.37343+03:00"
     description: A Helm chart for PW - A secure secret-sharing service with end-to-end
       encryption. All data is encrypted directly in the browser.
     digest: bbff5b5bba912a1401d0de803614e0f74220b36557c9e7a44d5fcae35411e3c2
@@ -803,7 +803,7 @@ entries:
           description: Metrics service now targets backend application port directly when nginx sidecar is enabled, bypassing nginx for /api/metrics scraping
     apiVersion: v2
     appVersion: 1.14.1
-    created: "2026-11-20T11:09:52.206605+03:00"
+    created: "2026-11-20T11:16:08.372401+03:00"
     description: A Helm chart for PW - A secure secret-sharing service with end-to-end
       encryption. All data is encrypted directly in the browser.
     digest: 4c442be75341d23a6ef2d3ae0b66f31a03feda8c5d169bc7d649a5be29874cba
@@ -838,7 +838,7 @@ entries:
           description: Updated Redis image to 8.4.0-alpine3.22
     apiVersion: v2
     appVersion: 1.14.1
-    created: "2026-11-20T11:09:52.206165+03:00"
+    created: "2026-11-20T11:16:08.371191+03:00"
     description: A Helm chart for PW - A secure secret-sharing service with end-to-end
       encryption. All data is encrypted directly in the browser.
     digest: eeb54f03658e4efcf26d187a97d94fc542473c12e97035ba8775f5192b6e72ce
@@ -873,7 +873,7 @@ entries:
           description: Updated Redis image to 8.4.0-alpine3.22
     apiVersion: v2
     appVersion: 1.14.1
-    created: "2026-11-20T11:09:52.205728+03:00"
+    created: "2026-11-20T11:16:08.36861+03:00"
     description: A Helm chart for PW - A secure secret-sharing service with end-to-end
       encryption. All data is encrypted directly in the browser.
     digest: 420b51a572306c3fd5bf549002b7fb60cc14c6e9a9ff247203fdeec41fec3864
@@ -908,7 +908,7 @@ entries:
           description: Updated Redis image to 8.4.0-alpine3.22
     apiVersion: v2
     appVersion: 1.14.0
-    created: "2026-11-20T11:09:52.205293+03:00"
+    created: "2026-11-20T11:16:08.363222+03:00"
     description: A Helm chart for PW - A secure secret-sharing service with end-to-end
       encryption. All data is encrypted directly in the browser.
     digest: 18db5f4599e2c9715def7e039391dde6b1eb1cdc4ad71d2f227c6d8799f063d7
@@ -941,7 +941,7 @@ entries:
           description: Updated Redis image to 8.4.0-alpine3.22
     apiVersion: v2
     appVersion: 1.14.0
-    created: "2026-11-20T11:09:52.204726+03:00"
+    created: "2026-11-20T11:16:08.361325+03:00"
     description: A Helm chart for PW - A secure secret-sharing service with end-to-end
       encryption. All data is encrypted directly in the browser.
     digest: f8e6cf377bf7597579794a7204cf98a37f79a55aefef87435c0fa60f9762c673
@@ -962,7 +962,7 @@ entries:
     version: 1.5.0
   - apiVersion: v2
     appVersion: 1.14.0
-    created: "2026-11-20T11:09:52.204017+03:00"
+    created: "2026-11-20T11:16:08.360692+03:00"
     description: A Helm chart for PW - Secure Secret Share Service
     digest: ad39380eebea557cf8f7559049bb704b6bdbe893ba6b594ea9652068b18e349d
     home: https://github.com/lebe-dev/pw
@@ -982,7 +982,7 @@ entries:
     version: 1.4.1
   - apiVersion: v2
     appVersion: 1.13.1
-    created: "2026-11-20T11:09:52.203634+03:00"
+    created: "2026-11-20T11:16:08.359787+03:00"
     description: A Helm chart for PW - Secure Secret Share Service
     digest: d28c79164a7fb83dda14483ef52137fa996259f1e2841ec673e5ad839126fa5b
     home: https://github.com/lebe-dev/pw
@@ -1002,7 +1002,7 @@ entries:
     version: 1.4.0
   - apiVersion: v2
     appVersion: 1.13.1
-    created: "2026-11-20T11:09:52.203277+03:00"
+    created: "2026-11-20T11:16:08.358439+03:00"
     description: A Helm chart for PW - Secure Secret Share Service
     digest: db25a576a78861995603d318d07cc356b44b2e496c3272c3f7f136908135eeef
     home: https://github.com/lebe-dev/pw
@@ -1022,7 +1022,7 @@ entries:
     version: 1.3.1
   - apiVersion: v2
     appVersion: 1.13.0
-    created: "2026-11-20T11:09:52.202994+03:00"
+    created: "2026-11-20T11:16:08.357747+03:00"
     description: A Helm chart for PW - Secure Secret Share Service
     digest: 901b6484b6979e9ee40b0ce87da50d9e8a3c3cd98f00c31b85ab65efd0672478
     home: https://github.com/lebe-dev/pw
@@ -1042,7 +1042,7 @@ entries:
     version: 1.3.0
   - apiVersion: v2
     appVersion: 1.12.1
-    created: "2026-11-20T11:09:52.202709+03:00"
+    created: "2026-11-20T11:16:08.356974+03:00"
     description: A Helm chart for PW - Secure Secret Share Service
     digest: b23718d1c8f462cfdf341f4c5e829bfeb4ed88a1dadd60055eae124cbd88fb00
     home: https://github.com/lebe-dev/pw
@@ -1062,7 +1062,7 @@ entries:
     version: 1.2.1
   - apiVersion: v2
     appVersion: 1.12.0
-    created: "2026-11-20T11:09:52.202409+03:00"
+    created: "2026-11-20T11:16:08.356048+03:00"
     description: A Helm chart for PW - Secure Secret Share Service
     digest: 197d74a151b325863ce5faa693687d6bb407aaf2a3aea0385de7c9c44654f8f5
     home: https://github.com/lebe-dev/pw
@@ -1082,7 +1082,7 @@ entries:
     version: 1.2.0
   - apiVersion: v2
     appVersion: 1.12.0
-    created: "2026-11-20T11:09:52.202106+03:00"
+    created: "2026-11-20T11:16:08.354688+03:00"
     description: A Helm chart for PW - Secure Secret Share Service
     digest: 19f24c19df20bac64cc7a19143639070bcf1091404b52480ecc81a95e0cb055c
     home: https://github.com/lebe-dev/pw
@@ -1102,7 +1102,7 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: 1.11.0
-    created: "2026-11-20T11:09:52.1975+03:00"
+    created: "2026-11-20T11:16:08.339276+03:00"
     description: A Helm chart for PW - Secure Secret Share Service
     digest: d0582d2b78bdbaad534154c0275f4b155f7e4363ab94ea1534db1ace56e67db1
     home: https://github.com/lebe-dev/pw
@@ -1122,7 +1122,7 @@ entries:
     version: 1.0.10
   - apiVersion: v2
     appVersion: 1.11.0
-    created: "2026-11-20T11:09:52.20179+03:00"
+    created: "2026-11-20T11:16:08.354269+03:00"
     description: A Helm chart for PW - Secure Secret Share Service
     digest: fb94c12f3deacde876f048d89e2a0f333fdee822b359a210e34807cd020c9834
     home: https://github.com/lebe-dev/pw
@@ -1142,7 +1142,7 @@ entries:
     version: 1.0.9
   - apiVersion: v2
     appVersion: 1.10.3
-    created: "2026-11-20T11:09:52.201485+03:00"
+    created: "2026-11-20T11:16:08.353958+03:00"
     description: A Helm chart for PW - Secure Secret Share Service
     digest: 570286e1fc5f27a7f32cca25f54312fefa3cf940efd2e42f388186da5a69bee5
     home: https://github.com/lebe-dev/pw
@@ -1162,7 +1162,7 @@ entries:
     version: 1.0.8
   - apiVersion: v2
     appVersion: 1.10.2
-    created: "2026-11-20T11:09:52.201143+03:00"
+    created: "2026-11-20T11:16:08.353622+03:00"
     description: A Helm chart for PW - Secure Secret Share Service
     digest: 118c8c32e63c58321da32dd4d50122c13c5156573342c8ab0eaf6c9e3540a0c5
     home: https://github.com/lebe-dev/pw
@@ -1182,7 +1182,7 @@ entries:
     version: 1.0.7
   - apiVersion: v2
     appVersion: 1.10.2
-    created: "2026-11-20T11:09:52.200692+03:00"
+    created: "2026-11-20T11:16:08.353271+03:00"
     description: A Helm chart for PW - Secure Secret Share Service
     digest: 1a28417c916c4e1a200f90c9fe7f4579eedb0a9ac65939c2541dd5112db7f2c6
     home: https://github.com/lebe-dev/pw
@@ -1202,7 +1202,7 @@ entries:
     version: 1.0.6
   - apiVersion: v2
     appVersion: 1.10.1
-    created: "2026-11-20T11:09:52.200016+03:00"
+    created: "2026-11-20T11:16:08.352739+03:00"
     description: A Helm chart for PW - Secure Secret Share Service
     digest: 51ca39a9816f52ce856290d8532e67c60e7822255dc860c361f9e3809623f5dc
     home: https://github.com/lebe-dev/pw
@@ -1222,7 +1222,7 @@ entries:
     version: 1.0.5
   - apiVersion: v2
     appVersion: 1.10.0
-    created: "2026-11-20T11:09:52.199104+03:00"
+    created: "2026-11-20T11:16:08.345917+03:00"
     description: A Helm chart for PW - Secure Secret Share Service
     digest: 4b0d5e2e6f809dd45b14b0627c1862110c8c1f3b54d8b2abde31efd268b12bef
     home: https://github.com/lebe-dev/pw
@@ -1242,7 +1242,7 @@ entries:
     version: 1.0.4
   - apiVersion: v2
     appVersion: 1.10.0
-    created: "2026-11-20T11:09:52.198457+03:00"
+    created: "2026-11-20T11:16:08.343257+03:00"
     description: A Helm chart for PW - Secure Secret Share Service
     digest: 80efcbe53ab77e7d13994bc62d8a264451b96bedbdd1b706333af9f4dc9cf720
     home: https://github.com/lebe-dev/pw
@@ -1262,7 +1262,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: 1.9.2
-    created: "2026-11-20T11:09:52.197922+03:00"
+    created: "2026-11-20T11:16:08.341082+03:00"
     description: A Helm chart for PW - Secure Secret Share Service
     digest: 3501df6031d9322e9c49c6d4e73da927b3c45a1ca1af58a7a939a7331f3ca12f
     home: https://github.com/lebe-dev/pw
@@ -1282,7 +1282,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.9.2
-    created: "2026-11-20T11:09:52.197179+03:00"
+    created: "2026-11-20T11:16:08.338872+03:00"
     description: A Helm chart for PW - Secure Secret Share Service
     digest: ed86f7ac59e4bfb6d0cb93194f690c33b585967dbb55451b0e7fe2ef607ad30c
     home: https://github.com/lebe-dev/pw
@@ -1302,7 +1302,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.9.1
-    created: "2026-11-20T11:09:52.196815+03:00"
+    created: "2026-11-20T11:16:08.337869+03:00"
     description: A Helm chart for PW - Secure Secret Share Service
     digest: bff47b0a9ffaaeb8b9c116976399b9f5e5e1bdf127d983461933aa1185c12c37
     home: https://github.com/lebe-dev/pw
@@ -1322,7 +1322,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 1.9.0
-    created: "2026-11-20T11:09:52.196396+03:00"
+    created: "2026-11-20T11:16:08.337076+03:00"
     description: A Helm chart for PW - Secure Secret Share Service
     digest: e21f4cc6ae0b452dc36e23fe1f9473105e2e8fee0d5a361550b52e1a903fced6
     home: https://github.com/lebe-dev/pw
@@ -1343,7 +1343,7 @@ entries:
   shortly:
   - apiVersion: v2
     appVersion: 1.6.0
-    created: "2026-11-20T11:09:52.219533+03:00"
+    created: "2026-11-20T11:16:08.428972+03:00"
     description: A Helm chart for Kubernetes
     digest: 53524ce3e45739537766919c94e041716c5679098f71fb816ccdb6c471989dcd
     name: shortly
@@ -1353,7 +1353,7 @@ entries:
     version: 1.1.8
   - apiVersion: v2
     appVersion: 1.6.0
-    created: "2026-11-20T11:09:52.219002+03:00"
+    created: "2026-11-20T11:16:08.428376+03:00"
     description: A Helm chart for Kubernetes
     digest: 027e5f3950d9a7ca02e00e521209326efbcabacbea1de9cc851f1c7dde73a196
     name: shortly
@@ -1363,7 +1363,7 @@ entries:
     version: 1.1.7
   - apiVersion: v2
     appVersion: 1.5.0
-    created: "2026-11-20T11:09:52.218508+03:00"
+    created: "2026-11-20T11:16:08.427823+03:00"
     description: A Helm chart for Kubernetes
     digest: b861ac0c9211bb939e82e216c858db3abfc84c25574ab11d34993e960482e075
     name: shortly
@@ -1373,7 +1373,7 @@ entries:
     version: 1.1.6
   - apiVersion: v2
     appVersion: 1.4.1
-    created: "2026-11-20T11:09:52.217831+03:00"
+    created: "2026-11-20T11:16:08.42729+03:00"
     description: A Helm chart for Kubernetes
     digest: 721f26e09adcd63b14ca15e6b825c90f1722ee43581b9e57e97cfcfd38e5c05e
     name: shortly
@@ -1383,7 +1383,7 @@ entries:
     version: 1.1.5
   - apiVersion: v2
     appVersion: 1.4.1
-    created: "2026-11-20T11:09:52.21722+03:00"
+    created: "2026-11-20T11:16:08.426756+03:00"
     description: A Helm chart for Kubernetes
     digest: 616784f92062b9b96e928d6b3c9ed6ff4b36d669ecb7915c0cdaab3ff6ff7742
     name: shortly
@@ -1393,7 +1393,7 @@ entries:
     version: 1.1.4
   - apiVersion: v2
     appVersion: 1.4.0
-    created: "2026-11-20T11:09:52.216707+03:00"
+    created: "2026-11-20T11:16:08.426191+03:00"
     description: A Helm chart for Kubernetes
     digest: f5ac0676485978737879279df91c66f3c24e84dc4c3a033a79ac5ebaf4e3b25d
     name: shortly
@@ -1403,7 +1403,7 @@ entries:
     version: 1.1.3
   - apiVersion: v2
     appVersion: 1.3.0
-    created: "2026-11-20T11:09:52.216244+03:00"
+    created: "2026-11-20T11:16:08.425605+03:00"
     description: A Helm chart for Kubernetes
     digest: 69140529a3cb4c5c75c87ebdaaf519dde89b2c08c152bf563f255f9a72971179
     name: shortly
@@ -1413,7 +1413,7 @@ entries:
     version: 1.1.2
   - apiVersion: v2
     appVersion: 1.3.0
-    created: "2026-11-20T11:09:52.215768+03:00"
+    created: "2026-11-20T11:16:08.41988+03:00"
     description: A Helm chart for Kubernetes
     digest: 5ebb6392fe9dee0f73f7eadb99b3418b8cf81e2b69eb600ee107043ac5387785
     name: shortly
@@ -1423,7 +1423,7 @@ entries:
     version: 1.1.1
   - apiVersion: v2
     appVersion: 1.3.0
-    created: "2026-11-20T11:09:52.215235+03:00"
+    created: "2026-11-20T11:16:08.415925+03:00"
     description: A Helm chart for Kubernetes
     digest: 2ed5a4affeb57ab6580d48416cb4ef5e0023e7d89332ac97e6c8dfb7b2c7c338
     name: shortly
@@ -1433,7 +1433,7 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: 1.2.2
-    created: "2026-11-20T11:09:52.214759+03:00"
+    created: "2026-11-20T11:16:08.401002+03:00"
     description: A Helm chart for Kubernetes
     digest: 018b0f0064ea15ecaa002be2e62788e0dbcda92ff671451af7a2622b0b3db73f
     name: shortly
@@ -1443,7 +1443,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.2.1
-    created: "2026-11-20T11:09:52.214371+03:00"
+    created: "2026-11-20T11:16:08.399116+03:00"
     description: A Helm chart for Kubernetes
     digest: 69f31dc4851ce527bb3fa0ab642c90a73594331a9d35c89c62a9cb3319a54f60
     name: shortly
@@ -1453,7 +1453,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.2.0
-    created: "2026-11-20T11:09:52.21318+03:00"
+    created: "2026-11-20T11:16:08.396886+03:00"
     description: A Helm chart for Kubernetes
     digest: 745a889d37ee065cbf48aec12d94be1e677fe5997bf2c00f2fa727f16e994918
     name: shortly
@@ -1463,7 +1463,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-20T11:09:52.21276+03:00"
+    created: "2026-11-20T11:16:08.396447+03:00"
     description: A Helm chart for Kubernetes
     digest: 3381e7082e23ef7fc4ab152e2b55bd08c2c8ccb36d6c01786b8b9bd7b1ae12af
     name: shortly
@@ -1473,7 +1473,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-20T11:09:52.21236+03:00"
+    created: "2026-11-20T11:16:08.396009+03:00"
     description: A Helm chart for Kubernetes
     digest: 3276e7302ce1cbdb3899f392b34d055bca4dc7a6e4edcca7fcf5bb61ce45cab2
     name: shortly
@@ -1483,7 +1483,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-11-20T11:09:52.212053+03:00"
+    created: "2026-11-20T11:16:08.395664+03:00"
     description: A Helm chart for Kubernetes
     digest: dfc2df45afc2d19af2d7fc31fb9e449f095d45988a6779b17ad86fcc739239b0
     name: shortly
@@ -1494,7 +1494,7 @@ entries:
   soika:
   - apiVersion: v2
     appVersion: 0.10.2
-    created: "2026-11-20T11:09:52.22331+03:00"
+    created: "2026-11-20T11:16:08.438654+03:00"
     description: Lightweight Sentry-compatible error tracker with SQLite or PostgreSQL
       storage
     digest: e9a8a5e69a391924d0ea95d3f429568b83383f0df9d755ec999ff44309fa32ad
@@ -1505,7 +1505,7 @@ entries:
     version: 0.3.8
   - apiVersion: v2
     appVersion: 0.10.1
-    created: "2026-11-20T11:09:52.222814+03:00"
+    created: "2026-11-20T11:16:08.438114+03:00"
     description: Lightweight Sentry-compatible error tracker with SQLite or PostgreSQL
       storage
     digest: a720a33f5063542564cd65a7372676d64f8b095c78c956d5bca81c0698e0aa10
@@ -1516,7 +1516,7 @@ entries:
     version: 0.3.7
   - apiVersion: v2
     appVersion: 0.10.1
-    created: "2026-11-20T11:09:52.222115+03:00"
+    created: "2026-11-20T11:16:08.437619+03:00"
     description: Lightweight Sentry-compatible error tracker with SQLite or PostgreSQL
       storage
     digest: 3b5f17817f4a19752536de9a4026984a6f7566a30fab327a51c6ed300ce44dd2
@@ -1527,7 +1527,7 @@ entries:
     version: 0.3.6
   - apiVersion: v2
     appVersion: 0.10.0
-    created: "2026-11-20T11:09:52.221507+03:00"
+    created: "2026-11-20T11:16:08.437147+03:00"
     description: Lightweight Sentry-compatible error tracker with SQLite or PostgreSQL
       storage
     digest: 201b3a79e30af2a8571577c2f6f146658943c0f3ddad04b74ffc09d30089acf8
@@ -1538,7 +1538,7 @@ entries:
     version: 0.3.5
   - apiVersion: v2
     appVersion: 0.10.0
-    created: "2026-11-20T11:09:52.221079+03:00"
+    created: "2026-11-20T11:16:08.436647+03:00"
     description: Lightweight Sentry-compatible error tracker with SQLite or PostgreSQL
       storage
     digest: 7055ebc66a7f0351599188b36947c5c7d4102bd93859f669c44a8d0726cb7416
@@ -1549,7 +1549,7 @@ entries:
     version: 0.3.4
   - apiVersion: v2
     appVersion: 0.9.0
-    created: "2026-11-20T11:09:52.220693+03:00"
+    created: "2026-11-20T11:16:08.436191+03:00"
     description: Lightweight Sentry-compatible error tracker with SQLite or PostgreSQL
       storage
     digest: 8f10b31dfcb353019bc6c07a061c4c50137672de3c5f70eebaa16443eecb3ac1
@@ -1560,7 +1560,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 0.9.0
-    created: "2026-11-20T11:09:52.220377+03:00"
+    created: "2026-11-20T11:16:08.435802+03:00"
     description: Lightweight Sentry-compatible error tracker with SQLite or PostgreSQL
       storage
     digest: f2fdeed4633e72106135aef85235aea448b3bd7dc58ba871ea46dac341f52675
@@ -1571,7 +1571,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.8.0
-    created: "2026-11-20T11:09:52.220059+03:00"
+    created: "2026-11-20T11:16:08.430319+03:00"
     description: Lightweight Sentry-compatible error tracker with SQLite or PostgreSQL
       storage
     digest: 6a2a06ec639e833f5e605faf56471a1f3f0c5c70114ba40c14bedfa089b9baaa
@@ -1582,7 +1582,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 0.8.0
-    created: "2026-11-20T11:09:52.219785+03:00"
+    created: "2026-11-20T11:16:08.429267+03:00"
     description: Lightweight Sentry-compatible error tracker with SQLite or PostgreSQL
       storage
     digest: fd9fe43f30e71483a1c75d447d78eb20c36dd2425dc38656bab864aa3f88aa3a
@@ -1591,4 +1591,4 @@ entries:
     urls:
     - soika-0.1.2.tgz
     version: 0.1.2
-generated: "2026-11-20T11:09:52.186498+03:00"
+generated: "2026-11-20T11:16:08.30783+03:00"
